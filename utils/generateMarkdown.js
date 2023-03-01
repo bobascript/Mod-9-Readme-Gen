@@ -10,25 +10,30 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `
   # ${data.title}
-${data.license}
+
 ## Description
 ${data.description}
+
 ## Table of Contents
-**[Installation](#Installation)**<br>
-**[Usage](#Usage)**<br>
-**[License](#License)**<br>
-**[Contributing](#Contributing)**<br>
-**[Tests](#Tests)**<br>
-**[Questions](#Questions)**<br>
-**[Video](#Video)**<br>
+**[Installation](#Installation)
+**[Usage](#Usage)
+**[License](#License)
+**[Contributing](#Contributing)
+**[Questions](#Questions)
+**[Video](#Video)
+
 ## Installation
-${data.install} 
+${data.install}
+
 ## Usage
 ${data.usage}
+
 ## License
 This project is licensed under the ${data.license} license.
+
 ## Contributing
 ${data.contribution}
+
 ## Questions
 If you have any questions about this project, open an issue or contact me directly at 
 ${
@@ -37,6 +42,7 @@ ${
 https://github.com/${
     data.username
   }
+  
 ## Video
 For a walkthrough video click on the following link:
 
