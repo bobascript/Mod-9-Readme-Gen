@@ -26,7 +26,7 @@ ${data.install}
 ## Usage
 ${data.usage}
 ## License
-This project is licensed under the ${license} license.
+This project is licensed under the ${data.license} license.
 ## Contributing
 ${data.contribution}
 ## Questions
@@ -36,7 +36,7 @@ ${
 }. If you want to take a look at more of my work click on the following link:
 https://github.com/${
     data.username
-  }. Thank you for your time and I hope you enjoyed.
+  }
 ## Video
 For a walkthrough video click on the following link:
 
