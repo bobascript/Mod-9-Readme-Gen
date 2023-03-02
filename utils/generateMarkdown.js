@@ -40,7 +40,7 @@ ${
   data.email
 }. If you want to take a look at more of my work click on the following link:
 https://github.com/${
-    data.username
+    data.gitHub
   }
   
 ## Video
